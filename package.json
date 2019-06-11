@@ -11,7 +11,8 @@
     "tsc": "gulp tsc",
     "less": "gulp less",
     "lint": "gulp lint",
-    "format": "gulp format"
+    "format": "gulp format",
+    "package": "electron-packager . electron-project-template --platform=darwin --arch=x64 --app-version=0.1.0 --electron-version=3.1.9 --overwrite --asar --extend-info=extend.plist --no-prune "
   },
   "keywords": [
     "electron",
